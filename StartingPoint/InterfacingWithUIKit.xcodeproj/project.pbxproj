@@ -27,6 +27,8 @@
 		6DA7438D294D0FCF0067B104 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D77ED24B665D7002E7AEA /* LandmarksApp.swift */; };
 		6DA7438E294D0FCF0067B104 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = C20D780624B685AC002E7AEA /* landmarkData.json */; };
 		6DA74390294D10EE0067B104 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA7438F294D10EE0067B104 /* LandmarkDetail.swift */; };
+		6DA74392294D1E9E0067B104 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA74391294D1E9E0067B104 /* NotificationView.swift */; };
+		6DA74394294D20390067B104 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA74393294D20390067B104 /* NotificationController.swift */; };
 		C20D77EE24B665D7002E7AEA /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D77ED24B665D7002E7AEA /* LandmarksApp.swift */; };
 		C20D77F024B665D7002E7AEA /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D77EF24B665D7002E7AEA /* LandmarkDetail.swift */; };
 		C20D77F224B665D8002E7AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20D77F124B665D8002E7AEA /* Assets.xcassets */; };
@@ -107,6 +109,8 @@
 		6DA74376294D023A0067B104 /* WatchLandmarks_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLandmarks_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		6DA74378294D023A0067B104 /* WatchLandmarks_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLandmarks_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6DA7438F294D10EE0067B104 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		6DA74391294D1E9E0067B104 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		6DA74393294D20390067B104 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		73F95A9A1230AE62CF0AAC9F /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		ABFE17D910FE79A157ADD56D /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C20D77EA24B665D7002E7AEA /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -190,6 +194,8 @@
 				6DA7435F294D02390067B104 /* Assets.xcassets */,
 				6DA74361294D02390067B104 /* Preview Content */,
 				6DA7438F294D10EE0067B104 /* LandmarkDetail.swift */,
+				6DA74391294D1E9E0067B104 /* NotificationView.swift */,
+				6DA74393294D20390067B104 /* NotificationController.swift */,
 			);
 			path = "WatchLandmarks Watch App";
 			sourceTree = "<group>";
@@ -562,12 +568,14 @@
 				6DA7435E294D02390067B104 /* ContentView.swift in Sources */,
 				6DA74388294D0FCF0067B104 /* Profile.swift in Sources */,
 				6DA74389294D0FCF0067B104 /* ModelData.swift in Sources */,
+				6DA74392294D1E9E0067B104 /* NotificationView.swift in Sources */,
 				6DA74383294D0FCF0067B104 /* LandmarkList.swift in Sources */,
 				6DA74390294D10EE0067B104 /* LandmarkDetail.swift in Sources */,
 				6DA7438D294D0FCF0067B104 /* LandmarksApp.swift in Sources */,
 				6DA74384294D0FCF0067B104 /* LandmarkRow.swift in Sources */,
 				6DA74387294D0FCF0067B104 /* Hike.swift in Sources */,
 				6DA7435C294D02390067B104 /* WatchLandmarksApp.swift in Sources */,
+				6DA74394294D20390067B104 /* NotificationController.swift in Sources */,
 				6DA7438A294D0FCF0067B104 /* MapView.swift in Sources */,
 				6DA74385294D0FCF0067B104 /* CircleImage.swift in Sources */,
 				6DA74386294D0FCF0067B104 /* Landmark.swift in Sources */,
